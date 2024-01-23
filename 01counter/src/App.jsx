@@ -42,10 +42,11 @@ function App() {
       <h2>Counter Value: {counter}</h2>
 
       <button 
+      className='button'
         onClick = {addValue}
       >Increse Value</button>
 
-      <button onClick = {minusValue} 
+      <button className='button' onClick = {minusValue} 
       >Decrease Value</button>
 
     </>
